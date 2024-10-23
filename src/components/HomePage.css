@@ -1,0 +1,176 @@
+Top Banner Styles
+
+  
+  
+  /* Main Container Adjustments for Fixed Header */
+  .homepage-container {
+    max-width: 1200px;
+    margin: 200px auto 0 auto; /* Adjusted margin-top for the fixed header */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content Styles */
+  .homepage-content {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Information Paragraph */
+  .homepage-info {
+    font-size: 1.1rem;
+    color: #495057;
+    margin-bottom: 15px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+  }
+  
+  /* Importance of Question Papers */
+  .homepage-importance {
+    font-size: 1rem;
+    color: #6c757d;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+  
+  /* Button Styles */
+  .homepage-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Year Selection Styles */
+  .homepage-selection {
+    margin-top: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .banner-heading {
+      font-size: 2.5rem;
+    }
+  
+    .homepage-info, .homepage-importance {
+      font-size: 1.2rem;
+    }
+  
+    .homepage-btn {
+      font-size: 1.2rem;
+    }
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* HomePage.css */
+
+/* Top banner */
+.top-banner {
+  background-color: #00274d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Homepage container */
+.homepage-container {
+  padding: 10px;
+}
+
+.homepage-content {
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homepage-info, .homepage-importance {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.homepage-btn {
+  background-color: #0073e6;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage-btn:hover {
+  background-color: #005bb5;
+}
+
+.homepage-selection {
+  margin-top: 20px;
+}
+
+h2, h3 {
+  color: #00274d;
+}
+
+select, option {
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+ul li a:hover {
+  color: #005bb5;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+select:focus {
+  border-color: #0073e6;
+  outline: none;
+}

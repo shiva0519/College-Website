@@ -1,0 +1,46 @@
+{
+    "Data Structures": {
+      "2023": [
+        "",
+        "https://example.com/data-structures-2023-paper2.pdf"
+      ],
+      "2022": [
+        "https://example.com/data-structures-2022-paper1.pdf"
+      ]
+    },
+    "Algorithms": {
+      "2023": [
+        "https://example.com/algorithms-2023-paper1.pdf"
+      ],
+      "2022": [
+        "https://example.com/algorithms-2022-paper1.pdf",
+        "https://example.com/algorithms-2022-paper2.pdf"
+      ]
+    },
+    "Operating Systems": {
+      "2023": [
+        "https://example.com/os-2023-paper1.pdf"
+      ],
+      "2022": [
+        "https://example.com/os-2022-paper1.pdf"
+      ]
+    },
+    "Database Management Systems": {
+      "2023": [
+        "https://example.com/dbms-2023-paper1.pdf",
+        "https://example.com/dbms-2023-paper2.pdf"
+      ],
+      "2022": [
+        "https://example.com/dbms-2022-paper1.pdf"
+      ]
+    },
+    "Computer Networks": {
+      "2023": [
+        "https://example.com/cn-2023-paper1.pdf"
+      ],
+      "2022": [
+        "https://example.com/cn-2022-paper1.pdf"
+      ]
+    }
+  }
+  

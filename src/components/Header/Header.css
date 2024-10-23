@@ -1,0 +1,52 @@
+.header{
+    min-height: 100vh;
+}
+.header__content{
+    min-height: calc(100vh - 106px);
+    flex-direction: column;
+}
+.header__title{
+    font-size: 4.1rem;
+    line-height: 1.2;
+}
+.header__content .para__text{
+    padding: 3.6rem 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media(min-width: 992px){
+    .header__content{
+        flex-direction: row;
+    }
+    .header__content--right{
+        text-align: left;
+        width: 50%;
+    }
+    .header__content--left{
+        width: 50%;
+    }
+    .header__content--right .para__text{
+        margin-left: 0;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #fff; /* Ensures text is white */
+    }
+    .btn-small {
+        width: 150px; /* Or any size you prefer */
+        padding: 1px 1px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
+    .form-control {
+        width: 100%;          /* Full width */
+        padding: 10px;       /* Add padding for better appearance */
+        border-radius: 25px; /* Rounded corners */
+        border: 1px solid #ced4da; /* Optional: border styling */
+        box-shadow: none;    /* Optional: remove shadow if needed */
+        transition: border-color 0.3s; /* Optional: smooth transition for focus */
+    }
+}
