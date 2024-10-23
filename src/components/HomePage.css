@@ -1,18 +1,14 @@
-Top Banner Styles
-
   
-  
-  /* Main Container Adjustments for Fixed Header */
   .homepage-container {
     max-width: 1200px;
-    margin: 200px auto 0 auto; /* Adjusted margin-top for the fixed header */
+    margin: 200px auto 0 auto; 
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  /* Content Styles */
+
   .homepage-content {
     text-align: center;
     padding: 40px;
@@ -21,7 +17,7 @@ Top Banner Styles
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Information Paragraph */
+ 
   .homepage-info {
     font-size: 1.1rem;
     color: #495057;
@@ -30,7 +26,7 @@ Top Banner Styles
     margin: 0 auto 20px auto;
   }
   
-  /* Importance of Question Papers */
+  
   .homepage-importance {
     font-size: 1rem;
     color: #6c757d;
@@ -38,7 +34,7 @@ Top Banner Styles
     margin: 0 auto 30px auto;
   }
   
-  /* Button Styles */
+  
   .homepage-btn {
     background-color: #007bff;
     color: #fff;
@@ -54,7 +50,7 @@ Top Banner Styles
     background-color: #0056b3;
   }
   
-  /* Year Selection Styles */
+ 
   .homepage-selection {
     margin-top: 30px;
   }
@@ -78,9 +74,8 @@ Top Banner Styles
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  /* HomePage.css */
+  
 
-/* Top banner */
 .top-banner {
   background-color: #00274d;
   color: #fff;
@@ -94,7 +89,7 @@ Top Banner Styles
   margin: 0;
 }
 
-/* Homepage container */
+
 .homepage-container {
   padding: 10px;
 }

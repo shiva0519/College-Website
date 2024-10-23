@@ -20,17 +20,10 @@ function App() {
         <Route path="/" element={isLoggedIn ? <HomePage /> : <Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={isLoggedIn ? <HomePage /> : <Navigate to="/login" />} />
-        {/* Optional: catch-all route for 404 */}
+      
        
       </Routes>
-      {/* <AboutUs /> */}
-      {/* <Skills />
-      <Stats />
-      <Work />
-      <WorkProcess />
-      <Services />
-      <Testimonials />
-      <Contact /> */}
+    
       <Footer />
     </div>
   );

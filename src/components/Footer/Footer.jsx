@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer__content grid text__light text__center">
                     <div className="footer__content--item">
-                        {/* <a href = "#" className="footer__navlink">Dev.Point Design, Inc.</a> */}
+                      
                         <p className="para__text">&copy; 2024  All rights reserved. Designed by Lakshmi.</p>
                     </div>
 

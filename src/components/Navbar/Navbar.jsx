@@ -18,31 +18,7 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* <div className="navbar__collapse">
-                    <ul className="navbar__nav">
-                        <li className="nav__item">
-                            <a href="#home" className="nav__link text__upper fw__6 text__light nav__active">home</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#about" className="nav__link text__upper fw__6 text__light">about</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#work" className="nav__link text__upper fw__6 text__light">work</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#process" className="nav__link text__upper fw__6 text__light">process</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#services" className="nav__link text__upper fw__6 text__light">services</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#testimonials" className="nav__link text__upper fw__6 text__light">testimonials</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#contact" className="nav__link text__upper fw__6 text__light">contact</a>
-                        </li>
-                    </ul>
-                </div> */}
+               
 
                 {toggleMenu && (
                     <div className="navbar__smallscreen">

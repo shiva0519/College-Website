@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -12,18 +12,18 @@
   
   @media (max-width: 768px) {
     .nav-links {
-      display: none;  /* Hide navbar links on mobile */
+      display: none;  
     }
   }
   
-  /* HomePage.css */
+ 
   .home-content {
     margin: 10px;
   }
   
   @media (max-width: 768px) {
     .home-content {
-      margin: 10px;  /* Adjust margin on mobile */
+      margin: 10px;  
     }
   }
   

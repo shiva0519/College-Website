@@ -28,9 +28,9 @@ const Login = () => {
                 <div className="header__content text__center text__light flex flex__center">
                     <div className="header__content--left"></div>
                     <div className="header__content--right">
-                        <h1 className="header__title fw__6">Welcome to Canara College of Engineering</h1>
+                        <h1 className="header__title fw__6">Welcome to PaperHub College of Engineering</h1>
                         <p className="para__text">
-                            Canara College of Engineering is committed to providing quality education and fostering student growth.
+                            PaperHub College of Engineering is committed to providing quality education and fostering student growth.
                             Our programs are designed to prepare students for success in their careers and personal lives.
                         </p>
                        

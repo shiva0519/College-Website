@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import YearSelection from './YearSelection';
-import papersData from '../data/papers.json'; // Assuming you have the JSON data
+import papersData from '../data/papers.json'; 
 
 const SubjectSelection = () => {
   const [selectedSubject, setSelectedSubject] = useState('');
   const [showYearSelection, setShowYearSelection] = useState(false);
 
-  // Extract the subjects from the papers.json file
+  
   const subjects = Object.keys(papersData);
 
   const handleSubjectChange = (e) => {
     setSelectedSubject(e.target.value);
-    setShowYearSelection(true); // Show year selection when a subject is chosen
+    setShowYearSelection(true); 
   };
 
   return (
@@ -27,7 +27,7 @@ const SubjectSelection = () => {
       </select>
 
       {showYearSelection && (
-        <YearSelection selectedSubject={selectedSubject} /> // Pass the selected subject to YearSelection
+        <YearSelection selectedSubject={selectedSubject} /> 
       )}
     </div>
   );
