@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/College-Website/static/css/main.9cd317f1.css",
+    "main.js": "/College-Website/static/js/main.8d0126ab.js",
+    "static/media/header-bg.jpg": "/College-Website/static/media/header-bg.d3ffc57f5c17df1b28ab.jpg",
+    "index.html": "/College-Website/index.html",
+    "main.9cd317f1.css.map": "/College-Website/static/css/main.9cd317f1.css.map",
+    "main.8d0126ab.js.map": "/College-Website/static/js/main.8d0126ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cd317f1.css",
+    "static/js/main.8d0126ab.js"
+  ]
+}
