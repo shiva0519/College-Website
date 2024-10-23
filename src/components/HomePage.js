@@ -15,15 +15,16 @@ const HomePage = () => {
     <div>
      
       <div className="top-banner">
-        <Navbar />
-        <h1 className="banner-heading">PaperHub College of Engineering</h1>
+        {/* <Navbar /> */}
+        <h1 className="banner-heading">PaperHub</h1>
+       <h2></h2>
+        <h4>Master Your Exams with Past Papers</h4>
       </div>
 
-     
       <div className="homepage-container">
         <div className="homepage-content text-center">
           <p className="homepage-info">
-            PaperHub College of Engineering is renowned for its commitment to quality education, innovative teaching practices, and a focus on students' holistic development. Access to previous question papers is a vital tool for students to familiarize themselves with the exam pattern, practice time management, and improve their chances of success in exams.
+          PaperHub is dedicated to providing B.Tech students with easy access to previous year question papers. Our platform empowers students to familiarize themselves with exam patterns, practice effective time management, and enhance their chances of success in exams. By offering a comprehensive collection of past papers, PaperHub supports your academic journey and helps you excel in your studies."
           </p>
           <p className="homepage-importance">
             By reviewing past question papers, students can focus on the most relevant topics, understand the recurring questions, and strategically plan their study approach.
