@@ -13,8 +13,8 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (collegeId.trim()) {
-            setIsLoggedIn(true); // Set login status in context
-            navigate('/home');   // Navigate to HomePage
+            setIsLoggedIn(true); 
+            navigate('/home');   
         }
     };
 
